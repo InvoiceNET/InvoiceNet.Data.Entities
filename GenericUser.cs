@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InvoiceNet.Data.Entities
 {
-    class GenericUser : AbstractAuditableEntity
+    public class GenericUser : AbstractAuditableEntity
     {
         private UInt32 m_userId;
         private String m_userName;
