@@ -27,5 +27,11 @@ namespace InvoiceNet.Data.Entities
             m_userId = 0;
             m_userName = "Anonymous";
         }
+
+        public GenericUser(UInt32 userId, String userName)
+        {
+            m_userId = userId;
+            m_userName = userName;
+        }
     }
 }
