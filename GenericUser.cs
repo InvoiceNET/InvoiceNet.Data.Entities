@@ -21,5 +21,11 @@ namespace InvoiceNet.Data.Entities
             get { return m_userName; }
             set { m_userName = value; }
         }
+
+        public GenericUser()
+        {
+            m_userId = 0;
+            m_userName = "Anonymous";
+        }
     }
 }
